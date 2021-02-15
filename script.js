@@ -49,7 +49,7 @@ function dice(p) {
     p = 4;
     var diceOne = document.getElementById('pointPone') + p;
   } else if (roll === 5) {
-    document.getElementById("dice").src = "picturesPdiceFive.png";
+    document.getElementById("dice").src = "pictures/diceFive.png";
     p = 5;
     var diceOne = document.getElementById('pointPone') + p;
   } else {
@@ -66,7 +66,7 @@ function dice(p) {
 function dicePlayerTwo(p) {
   const roll = Math.floor(Math.random() * 6);
   if (roll === 1) {
-    document.getElementById("dice").src = "dice.png";
+    document.getElementById("dice").src = "pictures/dice.png";
     p = 1;
     diceNumberOne = false;
     document.getElementById('pointPtwo').innerHTML = 0 - p;
@@ -112,6 +112,8 @@ function hold() {
     document.getElementById('pointPone').innerHTML = 0;
     if (totalCumulate >= 100) {
       alert("Player 1 win the game !")
+      newGame()
+      iconPone()
         }
         iconPone()
         diceNumberOne = true;
@@ -125,6 +127,8 @@ function hold() {
     document.getElementById('pointPtwo').innerHTML = 0;
     if (totalCumulate >= 100) {
       alert("Player 2 win the game !")
+      newGame()
+      iconPone()
         }
         iconPtwo()
         diceNumberOne = false;
