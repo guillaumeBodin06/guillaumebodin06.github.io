@@ -72,23 +72,23 @@ function dicePlayerTwo(p) {
     document.getElementById('pointPtwo').innerHTML = 0 - p;
     iconPtwo()
   } else if (roll === 2) {
-    document.getElementById("dice").src = "diceTwo.png";
+    document.getElementById("dice").src = "pictures/diceTwo.png";
     p = 2;
     var diceOne = document.getElementById('pointPone') + p;
   } else if (roll === 3) {
-    document.getElementById("dice").src = "diceThree.png";
+    document.getElementById("dice").src = "pictures/diceThree.png";
     p = 3;
     var diceOne = document.getElementById('pointPone') + p;
   } else if (roll === 4) {
-    document.getElementById("dice").src = "diceFour.png";
+    document.getElementById("dice").src = "pictures/diceFour.png";
     p = 4;
     var diceOne = document.getElementById('pointPone') + p;
   } else if (roll === 5) {
-    document.getElementById("dice").src = "diceFive.png";
+    document.getElementById("dice").src = "pictures/diceFive.png";
     p = 5;
     var diceOne = document.getElementById('pointPone') + p;
   } else {
-    document.getElementById("dice").src = "diceSix.png";
+    document.getElementById("dice").src = "pictures/diceSix.png";
     p = 6;
   }
     var myPoint = document.getElementById('pointPtwo').innerHTML;
