@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Play with dice</title>
+
+    <!-- CDN Ionic framwork-->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <ion-grid>
+      <!-- First part -->
+      <ion-row>
+        <ion-col>
+        </ion-col>
+        <ion-col class="col">
+          <div class="row newGame">
+            <button class="newGame goodButton" id="happyNewGame">
+              <ion-icon  color="danger"  name="add-circle-outline">New game</ion-icon>
+                <h3 class="block">NEW GAME</h3>
+            </button>
+          </div>
+        </ion-col>
+        <ion-col>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <!-- Second part -->
+    <ion-grid>
+      <ion-row class="colTwo">
+        <ion-col>
+          
+        </ion-col>
+        <ion-col>
+          <div class="newGame">
+            <h3 class="block" id="icon">PLAYER ONE<ion-icon color="danger" class="radioPlayer" name="radio-button-on-outline"></ion-icon></h3>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="newGame">
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="newGame">
+            <h3 class="block" id="iconTwo">PLAYER TWO</h3>
+          </div>
+        </ion-col>
+        <ion-col>
+          
+        </ion-col> 
+      </ion-row>
+
+      <!-- third part -->
+      <ion-row  class="colThree">
+        <ion-col>
+          
+        </ion-col>
+        <ion-col>
+          <p class="scoreSize" id="cumulatePone">0</p>
+        </ion-col>
+        <ion-col>
+          <div>
+              <img id="dice" class="imagePlacement" src="pictures\dice.png" alt="dice number one">
+          </div>
+        </ion-col>
+        <ion-col>
+          <p class="scoreSize" id="cumulatePtwo">0</p>
+        </ion-col>
+        <ion-col>
+          
+        </ion-col>
+      </ion-row>
+
+      <!-- fourth part -->
+      <ion-row  class="colFour">
+        <ion-col>
+          
+        </ion-col>
+        <ion-col>
+          
+        </ion-col>
+        <ion-col>
+          
+        </ion-col>
+      </ion-row>
+
+      <!-- fifth part -->
+      <ion-row  class="colFive">
+        <ion-col>
+          
+        </ion-col>
+        <ion-col>
+          <div class="blockColor">
+            <div>
+              <p class="currentText">CURRENT</p>
+            </div>
+            <div>
+              <p class="currentPoint" id="pointPone">0</p>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            <div class="row newGame"> 
+              <button class="newGame goodButton" id="rollDice" type="button">
+                <ion-icon color="danger" name="sync-outline">rowl dice</ion-icon>
+                  <h3 class="block">ROLL DICE</h3>
+              </button>
+            </div>
+            <div class="row newGame">
+              <button class="newGame goodButton" id="getPoint" type="button">
+                <ion-icon class="iconePlacement" color="danger" name="download-outline">scoreHold</ion-icon>
+                <h3 class="block">HOLD</h3>
+              </button>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="blockColor">
+            <div>
+              <p class="currentText">CURRENT</p>
+            </div>
+            <div>
+              <p class="currentPoint" id="pointPtwo">0</p>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col>
+          
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+
+
+
+    <!-- jQuery link -->
+    <script src="jQuery.js"></script>
+    
+    <!-- Ionic cdn link -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@4.7.4/dist/ionicons/ionicons.esm.js"></script>
+
+    <!-- Ionicicons cdn link-->
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@4.7.4/dist/ionicons/ionicons.js"></script>
+
+    <!-- JS link-->
+    <script src="script.js"></script>
+  </body>
+</html>
+  </body>
+</html>

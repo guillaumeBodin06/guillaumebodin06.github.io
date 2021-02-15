@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family:  'Lato', sans-serif;
+  background: linear-gradient(90deg, #fafafa 50%, #fff 50%); 
+}
+
+.padding {
+  padding-top: 100px;
+}
+.textAlign {
+  text-align: center;
+  margin-left: 50%;
+}
+.color {
+  background-color: blue;
+}
+.newGame {
+  background: transparent;
+  text-align: center;
+  
+}
+.generalFont {
+  font-family:  'Lato', sans-serif; 
+}
+.row {
+  width: 100%
+}
+.block {
+  width: 300px;
+  display: inline-block;
+}
+
+
+.halfShadow {
+  background: rgba(233, 230, 230, 0.5)
+}
+
+.col {
+  height: 20vh;
+}
+
+.colTwo {
+  height: 4vh;
+}
+
+.colThree {
+  height: 18vh;
+}
+
+.colFour {
+  height: 9vh;
+}
+
+.colFive{
+  height: 18vh;
+}
+
+.blockColor {
+  background: rgb(228, 63, 63);
+  border-radius: 5px;
+}
+
+.scoreSize {
+  font-size: 9vh;
+  text-align: center;
+}
+
+.imagePlacement {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 10px 10px rgb(228, 225, 225); 
+    width: 10vh;
+    height: 10vh;
+}
+
+.currentText {
+  font-size: 1.5vh;
+  text-align: center;
+}
+
+.currentPoint {
+  font-size: 6vh;
+  text-align: center;
+}
+
+.iconePlacement {
+  text-align: center;
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+.radioPlayer {
+  font-size: 16px;
+}
+
+.goodButton{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.4s;
+}
+
+.goodButton:hover {
+  background-color: #f8cac6;
+  border: blur;
+  border-radius: 10% / 50%;
+}
+
+.borderRed {
+  background: brown;
+}
